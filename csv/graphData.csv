@@ -1,0 +1,30 @@
+Dakar&V;;La Saint Louisienne:N&8.5
+La Saint Louisienne&V;;Dakar:N&8.5;Lac Rose:A&28.9,N&28.9;Les delices du Baol:A&128
+Lac Rose&L;;La Saint Louisienne:A&28.9,N&28.9;Village des Tortues:D&5.3
+Village des Tortues&L;;Lac Rose:D&5.3;Les delices du Baol:A&112
+Les delices du Baol&R;;La Saint Louisienne:A&128;Village des Tortues:A&112;Thies:N&67.4
+Thies&V;;Les delices du Baol:N&67.4;Kebemer:N&120
+Kebemer&V;;Thies:N&120;Saint-Louis:N&107
+Saint-Louis&V;;Kebemer:N&107;Le Tournedos:N&266
+Le Tournedos&R;;Saint-Louis:N&266;Nouakchott:D&5.8
+Nouakchott&V;;Le Tournedos:D&5.8;Aousserd:D&986
+Aousserd&V;;Nouakchott:D&986;Laayoune:D&727
+Laayoune&V;;Aousserd:D&727;La Creperie de Marrakech:D&871
+La Creperie de Marrakech&V;;Laayoune:D&871;Marrakech:D&5.9
+Marrakech&V;;La Creperie de Marrakech:D&5.9;Rabat:A&436;Fes:N&391
+Rabat&V;;Marrakech:A&436;Fes:A&208
+Fes&V;;Marrakech:N&391;Rabat:A&208;Madrid:D&1139
+Madrid&V;;Fes:D&1139;Parc d'Attraction de Madrid:A&7
+Parc d'Attraction de Madrid&L;;Madrid:A&7;Grenade:A&424
+Grenade&V;;Parc d'Attraction de Madrid:A&424;Barcelone:A&853
+Barcelone&V;;Grenade:A&853;Marseille:A&505
+Marseille&V;;Barcelone:A&505;Valence:A&214;Lyon:A&314
+Valence&V;;Marseille:A&214;L'Ardoise Bleue:D&12.2,N&14.5;Lyon:A&103;Chambery:A&124
+L'Ardoise Bleue&R;;Valence:D&12.2,N&14.5;Station de Sky de Sainte-Foy:A&266
+Lyon&V;;Valence:A&103;Chambery:A&108;Parc de la Tete d'Or:D&2.9;Marseille:A&314
+Parc de la Tete d'Or&L;;Lyon:D&2.9
+Chambery&V;;Valence:A&124;Lyon:A&108;Bourg Saint Maurice:A&104
+Station de Sky de Sainte-Foy&L;;L'Ardoise Bleue:A&266;Les Marquises:D&7.2,D&9.2;Le repaire des ecureuils:D&13.4
+Les Marquises&R;;Station de Sky de Sainte-Foy:D&7.2,D&9.2
+Le repaire des ecureuils&L;;Station de Sky de Sainte-Foy:D&13.4;Bourg Saint Maurice:D&5.4
+Bourg Saint Maurice&V;;Chambery:A&104;Le repaire des ecureuils:D&5.4

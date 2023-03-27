@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+jacocoTestReport {
+    dependsOn test
+}
+
+application {
+    mainClassName = 'com.risa.main.Main'
+}
+
+shadowJar {
+    archiveFileName = "SAEGraphMapRiSa.jar"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    // Ajout de GraphStream
+    implementation('org.graphstream:gs-core:2.0')
+    implementation('org.graphstream:gs-algo:2.0')
+    implementation('org.graphstream:gs-ui-swing:2.0')
+
+    //Ajout de Mockito
+    implementation('org.mockito:mockito-core:4.5.1')
+    implementation('org.mockito:mockito-junit-jupiter:4.5.1')
+
+    //Ajout de AssertJ
+    implementation('org.assertj:assertj-core:3.22.0')
+
+    //Ajout de FlatLaf
+    implementation('com.formdev:flatlaf:2.2')
+}
+
+test {
+    useJUnitPlatform()
+
+    finalizedBy jacocoTestReport
+}
